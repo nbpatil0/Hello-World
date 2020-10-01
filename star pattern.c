@@ -8,7 +8,7 @@ int main()
   scanf("%d", &n);
  
   s = n;
- 
+  printf("Your star pattern is ready\n");
   for (row = 1; row <= n; row++)  // Loop to print rows
   {
     for (c = 1; c < s; c++)  // Loop to print spaces in a row
